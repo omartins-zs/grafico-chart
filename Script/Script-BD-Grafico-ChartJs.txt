@@ -1,0 +1,20 @@
+
+Script Banco de Dados Projeto Grafico com Chart.JS e PHP
+
+
+CREATE DATABASE chart;
+
+
+CREATE TABLE `chart`.`vendedores` ( `id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+CREATE TABLE `chart`.`vendas` ( `id` INT NOT NULL AUTO_INCREMENT , `id_vendedores` INT NOT NULL , `vendas` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+ALTER TABLE `vendas`
+  ADD KEY `id_vendedores` (`id_vendedores`);
+
+
+ALTER TABLE `vendas` ADD CONSTRAINT `id_vendas_vendedores` FOREIGN KEY (`id_vendedores`) REFERENCES `chart`.`vendedores`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+
