@@ -18,5 +18,12 @@
     <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
 
   </p>
+<i>
 
-- Biblioteca Utilizada: [Chart.JS](https://www.chartjs.org/)
+
+
+### 📑 Utilitários
+
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Biblioteca Utilizada: **[Chart.JS](https://www.chartjs.org/)**
+</i>
