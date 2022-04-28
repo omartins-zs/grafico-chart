@@ -17,6 +17,9 @@
  🚀 Frameworks e Languages 
 </p>
 
+
+
+
   <p align="center">
     <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/>
     <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
@@ -24,7 +27,9 @@
 
   </p>
 <i>
-
+ 
+## 📝 Instrucões do banco de dados 
+* Script-BD-Grafico-ChartJs.txt -> Banco de dados Inicial
 
 
 ### 📑 Utilitários
