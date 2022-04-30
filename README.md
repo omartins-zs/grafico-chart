@@ -35,5 +35,6 @@
 ### 📑 Utilitários
 
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+ - Framework **[jQuery](https://jquery.com/)**
 - Biblioteca Utilizada: **[Chart.JS](https://www.chartjs.org/)**
 </i>
