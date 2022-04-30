@@ -51,6 +51,7 @@ function grafico(nome, vendas) {
 
     options: {
       scales: {
+        borderWidth: 1,
         y: [
           {
             ticks: {
@@ -59,6 +60,7 @@ function grafico(nome, vendas) {
           },
         ],
       },
+      indexAxis: 'y',
     },
   });
 }
