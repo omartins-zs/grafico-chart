@@ -12,7 +12,7 @@
 </p>
 
 <h1 align="center">
-    <img src="./video/graficoChartJs.mp4" />
+    <img src="./video/graficoChartJs.gif" />
 </h1>
 
 <br>
