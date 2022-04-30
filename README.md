@@ -1,16 +1,20 @@
 
 <h1 align="center"><img align="left" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">Grafico Chart.JS<img align="right" height="40" width="45"src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg"></h1>
 
-<p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM-ANDAMENTO&color=pink&style=for-the-badge"/>
-</p>
-
-
  <div align="center">
 
    <cite align="center">`Aprendizados para Implementação de Grafico com PHP E Chart.JS`</cite>
 
 </div>
+
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=pink&style=for-the-badge"/>
+</p>
+
+<h1 align="center">
+    <img src="./video/graficoChartJs.mp4" />
+</h1>
+
 <br>
 
    <p align="center">
