@@ -18,3 +18,30 @@ ALTER TABLE `vendas`
 ALTER TABLE `vendas` ADD CONSTRAINT `id_vendas_vendedores` FOREIGN KEY (`id_vendedores`) REFERENCES `chart`.`vendedores`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 
+ALTER TABLE `vendas` ADD CONSTRAINT `id_vendas_vendedores` FOREIGN KEY (`id_vendedores`) REFERENCES `vendedores`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+INSERT INTO `vendedores` (`id`, `nome`) VALUES (NULL, 'Jorge'), (NULL, 'Paula')
+
+
+INSERT INTO `vendas` (`id`, `id_vendedores`, `vendas`) VALUES (NULL, '2', '50'), (NULL, '1', '30')
+
+
+SELECT vendedores.nome, vendas.vendas FROM vendas JOIN vendedores ON vendedores.id = vendas.id_vendedores;
+
+
+INSERT INTO `vendedores` (`id`, `nome`) VALUES (NULL, 'Raquel'), (NULL, 'Taina')
+
+
+INSERT INTO `vendas` (`id`, `id_vendedores`, `vendas`) VALUES (NULL, '3', '200'), (NULL, '4', '15')
+
+
+
+
+
+
+
